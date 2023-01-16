@@ -2,5 +2,7 @@ php artisan migrate:fresh
 
 php artisan make:migration ime
 
+php artisan make:model ime -c -r
+
 
 https://laravel.com/docs/9.x/migrations#main-content
