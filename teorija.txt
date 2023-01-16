@@ -1,4 +1,4 @@
-1. Opiši pojam MVC.
+## 1. Opiši pojam MVC.
 MVC(Model-View-Controller) je obrazac u dizajnu softvera koji se obično koristi za implementaciju korisničkih sučelja, podataka i logike upravljanja. Naglašava razdvajanje poslovne logike softvera i zaslona. 
 Model upravlja podacima i poslovnom logikom.
 View upravlja izgledom i prikazom.
@@ -6,39 +6,36 @@ Controller usmjerava naredbe do dijelova modela i viewa.
 
 Model dojavljuje sebi pridruženim pogledima i upraviteljima kada je došlo do promjene u njegovom stanju. Ove dojave omogućuju pogledu da prikaže obnovljeno stanje modela, a upravitelju promjenu dostupnog skup naredbi.
 
-2. Opiši proces zahtjeva unutar Laravela od ruta do pogleda.
+## 2. Opiši proces zahtjeva unutar Laravela od ruta do pogleda.
 
-3. Opiši pojam ORM.
+## 3. Opiši pojam ORM.
 Object relational mapping(Objektno relacijsko preslikavanje) je tehnika programiranja za pretvorbu podataka između relacijske baze podataka i hrpe objektno orijentiranog programskog jezika. Time se zapravo stvara baza podataka virtualnih objekata koja se može koristiti unutar programskog jezika.
 
-4. Što je Bootstrap?
+## 4. Što je Bootstrap?
 Bootstrap je besplatni CSS okvir otvorenog koda usmjeren na responzivni front-end web razvoj prvenstveno za mobilne uređaje. Sadrži HTML, CSS i predloške dizajna temeljene na JavaScriptu.
 
-5. Napiši 3 komponente iz sustava Bootstrap po izboru.
+## 5. Napiši 3 komponente iz sustava Bootstrap po izboru.
 Gumbi, carousel dijaprojekcija, padajuće liste.
 
-6. Koje su novosti (nove oznake) u HTML 5?
+## 6. Koje su novosti (nove oznake) u HTML 5?
 Header, footer, figure, nav, section, article, aside, audio, video…
 
-
-
-
-7. Opiši zašto se koriste migracijske skripte? Koje su prednosti?
+## 7. Opiši zašto se koriste migracijske skripte? Koje su prednosti?
 Migracija je način koji vam omogućuje stvaranje tablice u vašoj bazi podataka, bez stvarnog odlaska do upravitelja baze podataka kao MYSQL workbench.
 Glavna prednost je da ćete to učiniti u svom razvojnom poslužitelju/stanici, i možete mijenjati shemu mnogo puta u razvoju, migrirati, vraćati migracije i ponovno ih migrirati, a čim vaš ID aplikacije bude gotov, ne morate zapamtiti što morate učiniti u svom proizvodnom okruženju, Laravel će to učiniti automatski za vas.
 
-8. U kojoj datoteci se pohranjuju podaci za spajanje na bazu?
+## 8. U kojoj datoteci se pohranjuju podaci za spajanje na bazu?
 .env datoteci
-9. Koja php artisan naredba pokreće Laravel projekt?
+## 9. Koja php artisan naredba pokreće Laravel projekt?
 Php artisan serve.
 
-10. Koja naredba kreira Laravel projekt?
+## 10. Koja naredba kreira Laravel projekt?
 composer create-project Laravel/ime projekta
 
-11. Kako bi pronašli popis svih php artisan naredbi?
+## 11. Kako bi pronašli popis svih php artisan naredbi?
 Upišemo u terminal php artisan list 
 
-12. Opiši primjerom PHP klasu? Što je nasljedivanje?
+## 12. Opiši primjerom PHP klasu? Što je nasljedivanje?
 <?php
 class Fruit {
   // Properties
